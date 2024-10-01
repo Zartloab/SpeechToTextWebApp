@@ -1,0 +1,2 @@
+Flask==2.1.2
+azure-cognitiveservices-speech==1.19.0
