@@ -22,8 +22,8 @@ def translate_speech():
     
     # Azure Speech SDK configuration with subscription key and region
     speech_translation_config = speechsdk.translation.SpeechTranslationConfig(
-        subscription="YOUR_SUBSCRIPTION_KEY", 
-        region="YOUR_REGION"
+        subscription="SUBSCRIPTION_KEY", 
+        region="REGION"
     )
     
     # Set the recognition language to the user-selected input language
